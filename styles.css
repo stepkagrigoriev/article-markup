@@ -11,11 +11,11 @@ h1 {
 }
 
 h2 {
-    font-family:LucidaGrande-Bold;
-    font-size:34px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:39px;
+    font-family: LucidaGrande-Bold;
+    font-size: 34px;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+    line-height: 39px;
     width: 700px;
     height: 39px;
     margin: 0 auto;
@@ -23,13 +23,13 @@ h2 {
 }
 
 p {
-    font-family:Georgia;
-    font-size:21px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:33px;
-    width:700px;
-    height:326px;
+    font-family: Georgia;
+    font-size: 21px;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+    line-height: 33px;
+    width: 700px;
+    height: 326px;
     margin: 0 auto;
 }
 
@@ -46,7 +46,6 @@ body {
 header img {
     margin: 10px 0 10px 38px;
 }
-
 
 nav {
     background-color: aliceblue;
@@ -81,7 +80,59 @@ a:active {
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    h1 {
+        font-family: LucidaGrande-Bold;
+        font-size: 42px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 44px;
+        width: 700px;
+        height: 88px;
+        margin: 0 auto;
+        padding: 9px;
+    }
+    h2 {
+        font-family: LucidaGrande-Bold;
+        font-size: 34px;
+        color: rgba(0,0,0,0.84);
+        text-align: left;
+        line-height: 39px;
+        width: 700px;
+        height: 39px;
+        margin: 0 auto;
+        padding: 10px 362px 55px 361px;
+    }
+    p {
+        font-family: Georgia;
+        font-size: 21px;
+        color: rgba(0,0,0,0.84);
+        text-align: left;
+        line-height: 33px;
+        width: 700px;
+        height: 326px;
+        margin: 0 auto;
+    }
+    code {
+        font-family: "Courier New", monospace;
+        background: #ecefed;
+    }
+
+    .main-img {
+        margin: 25px 3.5% 25px 3.5%;
+        width: 92%;
+
+    }
+    header img {
+        margin: 10px 0 10px 40px;
+    }
+    nav ul {
+        padding-left: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
 }
