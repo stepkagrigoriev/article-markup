@@ -7,7 +7,7 @@ h1 {
     width: 700px;
     height: 88px;
     margin: 0 auto;
-    padding: 9px;
+    padding: 54px 364px 10px 359px;
 }
 
 h2 {
@@ -19,7 +19,7 @@ h2 {
     width: 700px;
     height: 39px;
     margin: 0 auto;
-    padding: 10px 362px 55px 361px;
+    padding: 55px 364px 9px 359px;
 }
 
 p {
@@ -31,18 +31,19 @@ p {
     width:700px;
     height:326px;
     margin: 0 auto;
+    padding: 10px 362px 43px 361px;
 }
 
-.img {
-    width: 700px;
-    height: 727px;
-    margin: 0 auto;
-}
+
 body {
     margin: 0;
     background-color: aliceblue;
 }
 
+body img {
+    padding: 43px 362px 36px 359px;
+    text-align: center
+}
 header img {
     margin: 10px 0 10px 38px;
 }
